@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+.container{
+    width: 67%;
+    height: 80%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.imagecontainer{
+    overflow: hidden;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+}
+
+.imagecontainer img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    overflow: hidden;
+    position: absolute;
+    bottom: 10%;
+    width: 500px;
+    height: 100px;
+    z-index: 9;
+}
+
+.text h1{
+    top: 200px;
+    font-size: 6vw;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
